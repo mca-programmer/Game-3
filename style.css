@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#colorCode {
+  font-weight: bold;
+  color: #333;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.color-box {
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.color-box:hover {
+  transform: scale(1.1);
+}
+
+#result {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
